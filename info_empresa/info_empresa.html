@@ -1,12 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infomacion Empresa</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="../imagenes/logo.jpg" alt="Logo J.A.F Indumentaria" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#Productos">Productos</a></li>
+                <li><a href="../index.html#Empresa">Empresa</a></li>
+                <li><a href="../index.html#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="pagina-productos" style="padding-top: 40px;">
+        <h1 class="titulo-productos">Quiénes Somos</h1>
+        <p class="parrafo-productos">Más de 10 años vistiendo la industria argentina con calidad y compromiso.</p>
+
+        <div class="info-producto"
+            style="max-width: 900px; margin: 40px auto; text-align: justify; color: #e0e0e0; line-height: 1.8;">
+            <p>
+                <strong>J.A.F Indumentaria</strong> es una empresa argentina con sede en Buenos Aires, especializada en
+                la
+                confección de ropa laboral, uniformes corporativos y equipos de protección personal (EPP) para sectores
+                exigentes como la <strong>industria pesada, metalúrgica, gastronomía, salud y logística</strong>.
+            </p>
+            <br>
+            <p>
+                Fundada en 2014, nuestra misión es ofrecer soluciones textiles que combinen <strong>seguridad,
+                    durabilidad,
+                    comodidad y estética profesional</strong>. Trabajamos con materiales certificados —como tejidos
+                ignífugos,
+                de alta visibilidad y resistentes a químicos— y adaptamos cada prenda a las necesidades específicas de
+                nuestros clientes.
+            </p>
+            <br>
+            <p>
+                Nos enorgullece el trato cercano, la producción 100% nacional y la posibilidad de <strong>personalizar
+                    cada uniforme</strong> con bordados, estampas o colores corporativos. Desde pymes hasta grandes
+                industrias,
+                miles de trabajadores confían diariamente en nuestras prendas.
+            </p>
+            <br>
+            <p>
+                <em>“No solo vendemos ropa: vendemos protección, identidad y orgullo de pertenencia.”</em>
+            </p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="mailto:zalazxar@gmail.com?subject=Consulta - Empresa" class="btn-producto">Contactar a la
+                empresa</a>
+        </div>
+    </main>
+
+    <!-- Sección Carusel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imagenes/imagen_info_taller.jpg" class="d-block w-100"
+                    alt="Confección artesanal y controlada">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/imagen_info_indumentaria.jpg" class="d-block w-100"
+                    alt="Nuestros productos en acción">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/imgen_info_entrega.jpg" class="d-block w-100"
+                    alt="Compromiso y cercanía con cada cliente">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contacto: <a href="mailto:zalazxar@gmail.com">zalazxar@gmail.com</a></p>
+        <p>&copy; 2025 J.A.F Indumentaria.</p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
