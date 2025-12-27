@@ -1,0 +1,95 @@
+// --- SECCIÓN INICIO ---
+#Inicio {
+  text-align: center;
+  text-decoration: underline;
+  background-color: $bg-black;
+  color: $text-light;
+  font-size: 50px;
+  background-image: url("../imagenes/imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transform: scale(1);
+  padding: 100px 20px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Inicio h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+#Inicio p {
+  font-size: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+// --- PRODUCTOS ---
+.productos {
+  padding: 60px 20px;
+  background-color: $bg-dark;
+}
+
+.titulo-productos {
+  color: $text-light;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// --- EMPRESA ---
+.empresa {
+  padding: 60px 20px;
+  background-color: $bg-dark;
+  text-align: center;
+}
+
+.empresa h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: $text-light;
+}
+
+.empresa p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: $text-gray;
+}
+
+// --- CONTACTO ---
+.contacto {
+  padding: 60px 20px;
+  background-color: $bg-darker;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: $text-light;
+}
+
+.contacto p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: $text-gray;
+}

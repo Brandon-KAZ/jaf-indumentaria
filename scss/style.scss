@@ -1,0 +1,69 @@
+// 1. Variables (siempre primero)
+@import "./utilities/variables";
+
+// 2. Mixins (segundo, porque otros archivos los usan)
+@import "./utilities/mixins";
+
+// 3. Reset (tercero, base global)
+@import "./utilities/resert";
+
+// 4. Layout (header, footer)
+@import "./utilities/layout";
+
+// 5. Secciones (Inicio, Productos, Empresa, Contacto)
+@import "./utilities/sections";
+
+// 6. Componentes (botones, cards, mapa, carrusel) → también pueden usar mixins
+@import "./utilities/components";
+
+// 7. Páginas (producto-detalle, info_empresa)
+@import "./utilities/pages";
+
+// --- MEDIA QUERIES ---
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+
+  #Inicio h1 {
+    font-size: 2.5rem;
+  }
+
+  #Inicio p {
+    font-size: 1.2rem;
+  }
+
+  .titulo-productos {
+    font-size: 2rem;
+  }
+
+  .grid-productos {
+    grid-template-columns: 1fr;
+  }
+
+  .producto-detalle {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+    img {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+
+  .info-producto p,
+  .precio {
+    text-align: center;
+  }
+
+  #carouselExampleFade {
+    margin: 20px 10px;
+    border-radius: 6px;
+
+    .carousel-item img {
+      height: 200px;
+    }
+  }
+}

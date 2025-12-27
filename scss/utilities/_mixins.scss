@@ -1,0 +1,19 @@
+// Transición genérica
+@mixin transition($props...) {
+  transition: $props;
+}
+
+// Botón naranja
+@mixin orange-button {
+  background-color: $accent-orange;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: $radius-pill;
+  font-weight: bold;
+  @include transition(background-color 0.3s ease);
+
+  &:hover {
+    background-color: $accent-orange-dark;
+  }
+}
